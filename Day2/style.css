@@ -1,0 +1,16 @@
+.fitems{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: blue;
+    border-color: aqua;
+    border-width: 10px;
+    border-style: double;
+}
+.fcontainer{
+   display: flex; 
+   align-content: center;
+}
