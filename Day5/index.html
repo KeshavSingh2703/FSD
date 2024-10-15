@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="script.js"></script> -->
+</head>
+<body>
+    <!-- <a href="https://abes.ac.in">ABES</a>
+    <button onmouseover="display()">Change link</button> -->
+
+    <!-- <p></p>
+    <p></p>
+    <p></p>
+        let p1=document.querySelectorAll('p');
+        let display=()=>{
+            p1[0].innerHTML="updated";
+            p1[0].style.backgroundColor='red';
+            p1[1].innerHTML="updated";
+            p1[1].style.backgroundColor='red';
+        }
+        -->
+    <!-- <script>
+        let p1=document.querySelector('a');
+        let display=()=>{
+            p1.setAttribute('href', 'https://aktu.ac.in');
+            p1.innerText = "aktu website";
+        }
+    </script> -->
+    <button onclick="display()">click here</button>
+    <script>
+        let display = () =>{
+            const h1 = document.createElement('h1');
+            h1.textContent = "I am in heading";
+
+            let b = document.querySelector('body');
+            b.appendChild(h1);
+        }
+    </script>
+</body>
+</html>
